@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 40px;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+
+.nav_list li{
+    margin-right: 50px;
+}
+
+.nav_list li:last-child{
+    margin-right: 0;
+}
+
+.nav_list a{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 101px 0 86px;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    max-width: 500px;
+}
+.wrapper_text{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 27px 0 62px;
+    max-width: 500px;
+}
+
+.btn{
+    background: #000000;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 14px 60px 14px 60px;
+    border: 0;
+}
+
+.about-me{
+    background: #585858;
+    color: #FFFFFF;
+    padding: 80px 0 100px;
+    text-align: center;
+}
+
+.section_title{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about_text{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 560px;
+}
+
+.skills{
+    padding: 80px 0 120px;
+}
+
+.skills_box{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill_card{
+    text-align: center;
+    max-width: 370px;
+}
+
+.card_title{
+    font-size: 30px;
+    line-height: 35px;
+    margin: 39px 0;
+}
+
+.card_text{
+    font-size: 24px;
+    line-height: 28px;
+}
